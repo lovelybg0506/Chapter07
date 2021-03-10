@@ -39,9 +39,9 @@ public class Problem07_06 {
 			case 3:
 				for(int i=1;i<room.length;i++) {
 					if(room[i]==check) {
-						System.out.println(i+"방은 사용중입니다.");
+						System.out.println(i+"번방은 사용중입니다.");
 					}else{
-						System.out.println(i+"방은 빈방입니다.");
+						System.out.println(i+"번방은 빈방입니다.");
 				}
 			}
 				break;
