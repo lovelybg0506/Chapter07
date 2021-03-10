@@ -12,7 +12,7 @@ public class Problem07_06 {
 		System.out.print("방의 갯수를 입력: ");
 		roomsu=in.nextInt();
 		
-		boolean room[]=new boolean[roomsu]; // 빈방:false, 사용중:true
+		boolean room[]=new boolean[roomsu+1]; // 빈방:false, 사용중:true
 		
 		while(true) {
 			System.out.println("1.입실 2.퇴실 3.보기 4.종료: ");
@@ -37,14 +37,14 @@ public class Problem07_06 {
 				room[roomNum]=!check;
 				break;
 			case 3:
-				for(int i=0;i<room.length;i++) {
-					if(room[roomNum]=check) {
-						System.out.println(i+1+"방은 사용중입니다.");
+				for(int i=1;i<room.length;i++) {
+					if(room[i]==check) {
+						System.out.println(i+"방은 사용중입니다.");
 					}else{
-						System.out.println(i+1+"방은 빈방입니다.");
-					break;
+						System.out.println(i+"방은 빈방입니다.");
 				}
 			}
+				break;
 				
 			}
 		}
