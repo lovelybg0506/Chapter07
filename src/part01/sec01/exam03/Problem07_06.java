@@ -85,7 +85,7 @@ public class Problem07_06 {
 				} while (check);
 
 				if (room[roomNum - 1]) {
-					System.out.println(roomNum + "호실은 현재 사용중입니다.");
+					System.out.println(roomNum + "호실은 현재 사용중입니다."); // room[i] default=false, 즉 바로 else로 넘어감
 				} else {
 					room[roomNum - 1] = true;
 					System.out.println(roomNum + "호실에 입실하셨습니다.");
