@@ -15,13 +15,14 @@ public class Ex07_15 {
 		output(su1,su2,su3);
 	}
 
-	public static void disp() {	//매개변수도 없고 반환값(void)도 없음
+	public static void disp() {	//매개변수도 없고 반환값(return)도 없음
 		System.out.println("2021.03.11 메소드공부중..");
 
 	}
 
 	public static void output(int a, int b, int c) { //매개변수는 있는데 반환값없음
 		System.out.printf("%d+%d=%d\n", a, b, c);
+	
 	}
 
 	public static int hap(int a, int b) { // 매개변수도 있고 반환값도있음
