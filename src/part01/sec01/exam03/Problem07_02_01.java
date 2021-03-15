@@ -8,7 +8,7 @@ public class Problem07_02_01 {
 	}
 
 	public static void main(String[] args) {
-		int[] lotto= {0,0,0,0,0,0};
+		int[] lotto= {0,0,0,0,0,0}; //3,6,6
 		int i,k;
 		
 		System.out.printf("**로또 추첨을 시작합니다.**\n\n");
